@@ -1,0 +1,15 @@
+#skills .skills-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#skills .skills-top h1{
+  color: var(--primary-color);
+  font-size: 200%;
+}
+
+#skills .skills-top p{
+  color: var(--text-light);
+}
