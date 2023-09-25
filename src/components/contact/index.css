@@ -1,0 +1,71 @@
+/* CONTACT US SECTION */
+.contact {
+  background: #f0f0f0;
+  padding: 40px 0;
+}
+
+.contact .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h1.heading-text {
+  color: var(--primary-color);
+font-size: 200%;
+}
+
+.contact form {
+  width: 66%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #a1a1a1;
+}
+
+.contact textarea {
+  height: 80px;
+}
+
+.contact button {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  padding: 10px;
+  background: #4863ef;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact h3 {
+  font-size: 26px;
+  margin-top: 60px;
+  color: #ffbf35;
+}
+
+.contact h4 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.myInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
