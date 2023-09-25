@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 export default function Contact() {
   return (
-    <div className="main-section contact bg-lightgrey">
+    <section className="main-section contact bg-lightgrey" id='contact'>
       <div className="container">
         <h1 className="heading-text">GET IN TOUCH</h1><br/>
         <div className="width-100">
@@ -41,6 +41,6 @@ export default function Contact() {
         </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

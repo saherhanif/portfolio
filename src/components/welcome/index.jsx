@@ -1,6 +1,7 @@
 import React from 'react'
 import'./index.css'
 import myProfilePic from './profilepic.jpg'
+import resumePDF from './SaherHanifResume.pdf';
 
 export default function Welcome() {
   return (
@@ -18,8 +19,10 @@ export default function Welcome() {
             web projects, ranging from personal blogs to e-commerce platforms.
           </p>
           <div class="action__btns">
-            <button class="hire__me">Hire Me</button>
-            <button class="portfolio">Portfolio</button>
+            <a href='#contact'><button class="hire__me">Hire Me</button></a>
+            <a href={resumePDF} download="Saher_Hanif_Resume.pdf">
+            <button class="portfolio">Resume</button> 
+            </a>
           </div>
         </div>
         <div class="image">
