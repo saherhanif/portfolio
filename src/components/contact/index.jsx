@@ -9,13 +9,13 @@ export default function Contact() {
       <div className="container">
         <h1 className="heading-text">GET IN TOUCH</h1><br/>
         <div className="width-100">
-          <form>
+          {/* <form>
             <input type="text" placeholder="Full Name..." />
             <input type="text" placeholder="Full Email Id..." />
             <input type="text" placeholder="Full Mobile No..." />
             <textarea placeholder="Enter Address..."></textarea>
             <button type="submit">Submit</button>
-          </form>
+          </form> */}
         </div>
         <div className='myInfo'>
         <div className="width-33">
