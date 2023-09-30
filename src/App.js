@@ -6,11 +6,13 @@ import Skills from "./components/skills";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Navbar from "./components/nav-bar";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <Welcome />
       <About />
       <Skills />
